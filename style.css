@@ -1,0 +1,272 @@
+#home{
+    text-align: center;
+}
+.text-center .title:after {
+    margin: 20px auto 0px;
+}
+.title:after {
+    content:"";
+    display:block;
+    height:4px;
+    width:40px;
+    background-color: #6195FF;
+    margin-top: 5px !important;
+}
+.tit{
+    text-align: center;
+}
+.tit:after {
+    content:"";
+    display:block;
+    height:4px;
+    width:40px;
+    background-color: #6195FF;
+    margin-top: 5px !important;
+    margin: 20px auto 0px;
+}
+/* .why:after {
+    width: 40px !important;
+    content: "" !important;
+    display: block !important;
+    height: 4px !important;
+    background-color: #6195FF !important;
+    margin-top: 5px !important;
+} */
+.men-bar {
+    position: fixed;
+    text-align: center;
+    background-color:white;
+    width: 100%;
+}
+.bigp{
+    background-image: url('./images/background1.jpg');
+    padding: 105px;
+}
+.logo {
+    width: 90px;
+    height: 60px;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 7px;
+}
+
+.menu li {
+    display: inline-block;
+    /* margin-left: 20px; */
+}
+
+.menu li a {
+    text-decoration: none;
+    float: right;
+    color: black;
+    margin-left: 8px;
+}
+
+.menu li a:hover {
+    border-bottom: 2px solid #2e80b7;
+}
+
+.section-header {
+    margin: 40px 0;
+}
+
+.one {
+    width: 350px;
+    height: 350px;
+}
+
+.three {
+    width: 350px;
+    height: 350px;
+}
+
+.two {
+    width: 350px;
+    height: 350px;
+}
+
+.one:hover {
+    background-color: grey;
+    opacity: 0.7s;
+
+}
+
+.up {
+    margin-bottom: 15px;
+}
+
+.down {
+    margin-bottom: 15px;
+}
+
+.tt h5 {
+    color: black;
+    margin-left: 40px;
+}
+
+.text {
+    text-align: left;
+}
+
+.tt p {
+    color: grey;
+    line-height: 30px;
+    margin-left: 40px;
+}
+
+.tt:hover {
+    background-color: #1c1d21;
+}
+
+.tt h5:hover {
+    color: white;
+}
+
+.bottom {
+    margin: 40px 0;
+}
+
+.top {
+    margin-top: 40px;
+}
+
+.sleft {
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    float: left;
+}
+
+.sright {
+    width: 50%;
+    display: inline-block;
+
+}
+
+.sleft h2 {
+    margin-bottom: 40px;
+}
+
+.sleft h3 {
+    font-size: 20px;
+}
+
+.sl li {
+    list-style: square;
+    font-size: 18px;
+    color: grey;
+    line-height: 50px;
+}
+
+#services {
+    margin-bottom: 50px;
+}
+
+.exp {
+    float: left;
+    width: 735px;
+}
+
+.expone {
+    float: left
+}
+
+.slider0 {
+    float: left;
+    display: flex;
+    position: relative;
+    right: 117px;
+    margin-top: 25px;
+}
+
+.get {
+    float: left;
+    display: flex;
+    position: relative;
+    right: 117px;
+    margin-top: 25px;
+}
+
+.footer {
+    background-color: #1c1d21;
+    float: left;
+    display: flex;
+    position: relative;
+    right: 117px;
+    margin-top: 25px;
+}
+
+.founder {
+    float: left;
+    display: flex;
+    position: relative;
+    right: 65px;
+    margin-top: 25px;
+}
+.w-text {
+    color: white;
+    font-weight: 700;
+    font-size: 54px;
+}
+.p-text{
+    color: white;
+    font-size: 18px;
+    line-height: 35px;
+}
+svg.bi.bi-gem {
+    position: absolute;
+    top: 25px;
+    color: #6195FF;
+    text-align: center;
+}
+svg.bi.bi-rocket-takeoff-fill{
+    position: absolute;
+    top: 25px;
+    color: #6195FF;
+    text-align: center;
+}
+svg.bi.bi-gear-wide{
+    position: absolute;
+    top: 25px;
+    color: #6195FF;
+    text-align: center;
+}
+svg.bi.bi-pencil-fill{
+    position: absolute;
+    top: 25px;
+    color: #6195FF;
+    text-align: center;
+}
+svg.bi.bi-hourglass-bottom{
+    position: absolute;
+    top: 25px;
+    color: #6195FF;
+    text-align: center;
+}
+.boxes{
+    margin-left: 15px;
+}
+.sleft h3 {
+    font-weight: revert;
+}
+#back-to-top {
+    display:none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #6195FF;
+    border-radius:3px;
+    color: #FFF;
+    z-index: 9999;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+    cursor: pointer;
+}
